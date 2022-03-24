@@ -24,6 +24,7 @@ void setup() {
   pinMode(LED, OUTPUT);
   digitalWrite(LED, HIGH);
   u8g2.begin();
+  u8g2.getDisplayHeight
   /*
   digitalWrite(RED, HIGH);
   delay(1000);
@@ -112,7 +113,6 @@ void loop() {
       u8g2.setFont(u8g2_font_5x7_mf);
       s = String("uptime: " + s );
       u8g2.drawStr(4,30,s.c_str());
-      u8g2.
       lastWrite = millis();
     } while ( u8g2.nextPage() );
   }

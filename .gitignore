@@ -1,0 +1,7 @@
+/Makefile.arduinoConfig
+*.o
+/util/Fonts.txt
+/testdata/screens/*.png
+*.a
+
+*.swp
