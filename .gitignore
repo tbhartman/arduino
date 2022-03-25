@@ -2,6 +2,8 @@
 *.o
 /util/Fonts.txt
 /testdata/screens/*.png
+/testdata/screens/*.out.u8i
 *.a
 
 *.swp
+/test.exe
