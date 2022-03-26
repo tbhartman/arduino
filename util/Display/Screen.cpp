@@ -24,7 +24,7 @@ Screen& Screen::operator=(Screen& other) noexcept
 }
 Screen::~Screen()
 {
-    delete u8g2;
+    this->u8g2 = nullptr;
 }
 
 void Screen::SetFont(const uint8_t* fontName)

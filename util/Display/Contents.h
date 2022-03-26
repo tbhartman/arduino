@@ -8,6 +8,7 @@ namespace Contents {
 class Reader
 {
   public:
+    virtual ~Reader() {};
     virtual uint16_t Width() const = 0;
     virtual uint16_t Height() const = 0;
     virtual bool At(int x, int y) const = 0;
@@ -16,6 +17,7 @@ class Reader
 class Writer : public Reader
 {
   public:
+    virtual ~Writer() {};
     virtual void Resize(int width, int height) = 0;
     virtual void Clear() = 0;
     virtual void Set(int x, int y, bool value) = 0;
@@ -31,7 +33,7 @@ class StringReader : public Reader
     StringReader& operator=(const StringReader&);
     StringReader(StringReader&&);
     StringReader& operator=(StringReader&&);
-    ~StringReader();
+    virtual ~StringReader();
 
     virtual uint16_t Width() const override;
     virtual uint16_t Height() const override;

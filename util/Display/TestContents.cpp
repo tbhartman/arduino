@@ -11,9 +11,6 @@ VectorWriter::VectorWriter(uint16_t width, uint16_t height):
 {
     Data.resize(width*height);
 }
-// VectorWriter::VectorWriter(std::string filename)
-// {
-// }
 void VectorWriter::Resize(int width, int height)
 {
     this->width = width;
@@ -42,10 +39,47 @@ bool VectorWriter::At(int x, int y) const
     return Data[y*width+x];
 }
 
+static std::string read_file(std::string filename)
+{
+    const size_t read_size = 4096;
+    auto stream = std::ifstream(filename);
+    
+    std::string ret;
+    std::string buf(read_size, '\0');
+    while (stream.read(&buf[0], read_size)) {
+        ret.append(buf, 0, stream.gcount());
+    }
+    ret.append(buf, 0, stream.gcount());
+    return ret;
+}
+
+std::unique_ptr<Display::Contents::Reader> Display::Contents::ReadFromFile(std::string filename)
+{
+
+    auto data = read_file(filename);
+    if (data.size() == 0) {
+        return nullptr;
+    }
+    StringReader r(&data[0]);
+    VectorWriter* vw = new VectorWriter(r.Width(), r.Height());
+    for (uint16_t i = 0; i < r.Width(); i++)
+    {
+        for (uint16_t j = 0; j < r.Height(); j++)
+        {
+            vw->Set(i,j,r.At(i,j));
+        }
+    }
+    std::unique_ptr<Display::Contents::Reader> ret;
+    ret.reset(vw);
+    return ret;
+}
 void Display::Contents::WriteToFile(std::string filename, Reader const* reader)
 {
     std::ofstream outfile{};
-    outfile.open(filename + ".u8i");
+    outfile.open(filename);
+    if (outfile.fail()) {
+        return;
+    }
     outfile.write("U8I", 3);
     uint8_t byteToWrite = 1;
     uint16_t version = 1;

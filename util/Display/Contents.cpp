@@ -1,5 +1,7 @@
 #include "Contents.h"
 
+#include <iostream>
+
 using namespace Display::Contents;
 
 // StringReader requires U8Iv2
@@ -47,17 +49,17 @@ StringReader::~StringReader()
 uint16_t StringReader::Width() const
 {
   uint16_t ret = 0;
-  ret += *(this->ptr+6);
+  ret += (uint8_t)(*(this->ptr+6));
   ret = ret << 8;
-  ret += *(this->ptr+5);
+  ret += (uint8_t)(*(this->ptr+5));
   return ret;
 }
 uint16_t StringReader::Height() const
 {
   uint16_t ret = 0;
-  ret += *(this->ptr+10);
+  ret += (uint8_t)(*(this->ptr+10));
   ret = ret << 8;
-  ret += *(this->ptr+9);
+  ret += (uint8_t)(*(this->ptr+9));
   return ret;
 }
 bool StringReader::At(int x, int y) const

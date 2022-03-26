@@ -2,6 +2,8 @@
 
 #include "clib/u8g2.h"
 
+#include <iostream>
+
 static std::vector<Display::TestScreen*> test_displays;
 
 struct Display::TDAccessor {
@@ -98,7 +100,6 @@ Display::TestScreen::~TestScreen()
             test_displays[i] = nullptr;
         }
     }
-    delete u8g2;
 }
 
 Display::Contents::Reader const* Display::TestScreen::GetContents() const

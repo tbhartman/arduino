@@ -21,7 +21,7 @@ class Screen
     Screen(u8g2_struct *u8g2);
     Screen(const Screen& other);
     Screen& operator=(Screen& other) noexcept;
-    ~Screen();
+    virtual ~Screen();
 
     // would like to have for-range iterator...not working yet
     class Iterator {

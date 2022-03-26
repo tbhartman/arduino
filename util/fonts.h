@@ -406,12 +406,12 @@ namespace Fonts {
     extern const uint8_t* tr;
   } // namespace B
  } // namespace s9x18
-namespace SevenSegments {
+namespace _7Segments {
  namespace s26x42 {
     // u8g2_font_7Segments_26x42_mn
     extern const uint8_t* mn;
  } // namespace s26x42
-} // namespace SevenSegments
+} // namespace _7Segments
 namespace BBSesque {
     // u8g2_font_BBSesque_te
     extern const uint8_t* te;
@@ -564,29 +564,29 @@ namespace adventurer {
 } // namespace adventurer
 namespace amstrad_cpc_extended {
     // u8g2_font_amstrad_cpc_extended_8f
-    extern const uint8_t* Eightf;
+    extern const uint8_t* _8f;
     // u8g2_font_amstrad_cpc_extended_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_amstrad_cpc_extended_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_amstrad_cpc_extended_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace amstrad_cpc_extended
 namespace artossans8 {
     // u8g2_font_artossans8_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_artossans8_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_artossans8_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace artossans8
 namespace artosserif8 {
     // u8g2_font_artosserif8_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_artosserif8_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_artosserif8_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace artosserif8
 namespace astragal_nbp {
     // u8g2_font_astragal_nbp_tf
@@ -599,77 +599,77 @@ namespace astragal_nbp {
 namespace b10 {
    namespace japanese1 {
     // u8g2_font_b10_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_b10_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
 } // namespace b10
 namespace b10_b {
    namespace japanese1 {
     // u8g2_font_b10_b_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_b10_b_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
 } // namespace b10_b
 namespace b12 {
    namespace japanese1 {
     // u8g2_font_b12_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_b12_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
    namespace japanese3 {
     // u8g2_font_b12_t_japanese3
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese3
 } // namespace b12
 namespace b12_b {
    namespace japanese1 {
     // u8g2_font_b12_b_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_b12_b_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
    namespace japanese3 {
     // u8g2_font_b12_b_t_japanese3
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese3
 } // namespace b12_b
 namespace b16 {
    namespace japanese1 {
     // u8g2_font_b16_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_b16_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
    namespace japanese3 {
     // u8g2_font_b16_t_japanese3
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese3
 } // namespace b16
 namespace b16_b {
    namespace japanese1 {
     // u8g2_font_b16_b_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_b16_b_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
    namespace japanese3 {
     // u8g2_font_b16_b_t_japanese3
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese3
 } // namespace b16_b
 namespace baby {
@@ -794,11 +794,11 @@ namespace chikita {
 } // namespace chikita
 namespace chroma48medium8 {
     // u8g2_font_chroma48medium8_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_chroma48medium8_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_chroma48medium8_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace chroma48medium8
 namespace courB08 {
     // u8g2_font_courB08_tf
@@ -1239,61 +1239,61 @@ namespace etl24thai {
 namespace f10 {
    namespace japanese1 {
     // u8g2_font_f10_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_f10_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
 } // namespace f10
 namespace f10_b {
    namespace japanese1 {
     // u8g2_font_f10_b_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_f10_b_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
 } // namespace f10_b
 namespace f12 {
    namespace japanese1 {
     // u8g2_font_f12_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_f12_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
 } // namespace f12
 namespace f12_b {
    namespace japanese1 {
     // u8g2_font_f12_b_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_f12_b_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
 } // namespace f12_b
 namespace f16 {
    namespace japanese1 {
     // u8g2_font_f16_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_f16_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
 } // namespace f16
 namespace f16_b {
    namespace japanese1 {
     // u8g2_font_f16_b_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_f16_b_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
 } // namespace f16_b
 namespace fancypixels {
@@ -3474,13 +3474,13 @@ namespace p01type {
 } // namespace p01type
 namespace pcsenior {
     // u8g2_font_pcsenior_8f
-    extern const uint8_t* Eightf;
+    extern const uint8_t* _8f;
     // u8g2_font_pcsenior_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_pcsenior_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_pcsenior_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace pcsenior
 namespace pearfont {
     // u8g2_font_pearfont_tr
@@ -3522,13 +3522,13 @@ namespace press_mel {
 } // namespace press_mel
 namespace pressstart2p {
     // u8g2_font_pressstart2p_8f
-    extern const uint8_t* Eightf;
+    extern const uint8_t* _8f;
     // u8g2_font_pressstart2p_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_pressstart2p_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_pressstart2p_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace pressstart2p
 namespace profont10 {
     // u8g2_font_profont10_mf
@@ -3674,23 +3674,23 @@ namespace px437wyse700b {
 } // namespace px437wyse700b
 namespace pxplusibmcga {
     // u8g2_font_pxplusibmcga_8f
-    extern const uint8_t* Eightf;
+    extern const uint8_t* _8f;
     // u8g2_font_pxplusibmcga_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_pxplusibmcga_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_pxplusibmcga_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace pxplusibmcga
 namespace pxplusibmcgathin {
     // u8g2_font_pxplusibmcgathin_8f
-    extern const uint8_t* Eightf;
+    extern const uint8_t* _8f;
     // u8g2_font_pxplusibmcgathin_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_pxplusibmcgathin_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_pxplusibmcgathin_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace pxplusibmcgathin
 namespace pxplusibmvga8 {
     // u8g2_font_pxplusibmvga8_mf
@@ -3734,13 +3734,13 @@ namespace pxplusibmvga9 {
 } // namespace pxplusibmvga9
 namespace pxplustandynewtv {
     // u8g2_font_pxplustandynewtv_8f
-    extern const uint8_t* Eightf;
+    extern const uint8_t* _8f;
     // u8g2_font_pxplustandynewtv_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_pxplustandynewtv_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_pxplustandynewtv_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
    namespace all {
     // u8g2_font_pxplustandynewtv_t_all
     extern const uint8_t* t;
@@ -3792,9 +3792,9 @@ namespace rosencrantz_nbp {
 } // namespace rosencrantz_nbp
 namespace saikyosansbold8 {
     // u8g2_font_saikyosansbold8_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_saikyosansbold8_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace saikyosansbold8
 namespace samim_10 {
    namespace all {
@@ -3916,7 +3916,7 @@ namespace sticker_mel {
 } // namespace sticker_mel
 namespace streamline_all {
     // u8g2_font_streamline_all_t
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 2
 } // namespace streamline_all
 namespace streamline_building_real_estate {
     // u8g2_font_streamline_building_real_estate_t
@@ -4181,7 +4181,7 @@ namespace t0_11 {
     extern const uint8_t* tr;
    namespace all {
     // u8g2_font_t0_11_t_all
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 3
    } // namespace all
 } // namespace t0_11
 namespace t0_11b {
@@ -4682,11 +4682,11 @@ namespace tooseornament {
 } // namespace tooseornament
 namespace torussansbold8 {
     // u8g2_font_torussansbold8_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_torussansbold8_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_torussansbold8_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace torussansbold8
 namespace trixel_square {
     // u8g2_font_trixel_square_tf
@@ -4739,15 +4739,15 @@ namespace unifont {
    } // namespace cards
    namespace chinese1 {
     // u8g2_font_unifont_t_chinese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 1
    } // namespace chinese1
    namespace chinese2 {
     // u8g2_font_unifont_t_chinese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 1
    } // namespace chinese2
    namespace chinese3 {
     // u8g2_font_unifont_t_chinese3
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 1
    } // namespace chinese3
    namespace cyrillic {
     // u8g2_font_unifont_t_cyrillic
@@ -4779,23 +4779,23 @@ namespace unifont {
    } // namespace hebrew
    namespace japanese1 {
     // u8g2_font_unifont_t_japanese1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese1
    namespace japanese2 {
     // u8g2_font_unifont_t_japanese2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese2
    namespace japanese3 {
     // u8g2_font_unifont_t_japanese3
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 0
    } // namespace japanese3
    namespace korean1 {
     // u8g2_font_unifont_t_korean1
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 1
    } // namespace korean1
    namespace korean2 {
     // u8g2_font_unifont_t_korean2
-    extern const uint8_t* t;
+    // extern const uint8_t* t; ignored by 1
    } // namespace korean2
    namespace latin {
     // u8g2_font_unifont_t_latin
@@ -4844,19 +4844,19 @@ namespace utopia24 {
 } // namespace utopia24
 namespace victoriabold8 {
     // u8g2_font_victoriabold8_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_victoriabold8_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_victoriabold8_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace victoriabold8
 namespace victoriamedium8 {
     // u8g2_font_victoriamedium8_8n
-    extern const uint8_t* Eightn;
+    extern const uint8_t* _8n;
     // u8g2_font_victoriamedium8_8r
-    extern const uint8_t* Eightr;
+    extern const uint8_t* _8r;
     // u8g2_font_victoriamedium8_8u
-    extern const uint8_t* Eightu;
+    extern const uint8_t* _8u;
 } // namespace victoriamedium8
 namespace wqy12 {
    namespace chinese1 {
